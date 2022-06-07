@@ -19,13 +19,13 @@ For benchmarking, we use [Activity-Net](https://github.com/activitynet/ActivityN
 ## Examples
 Here can be seen some images processed with MDETR, and plotting to see the rectangle around object detected. Also, you can the confidence, which is a metric that MDETR provides, to know how sure it is about the result get. In our code, many detections are discarded because confidence is not high enough. You can change that modifying "CONFIDENCE" constante in the code.
 
-´´´
+```
 ACA PONER IMAGENES, NO SOLO LAS DEL PAPER
-´´´
+```
 
 ## Results
 After running validation dataset of AVA, we get some results. They are presented in the next chart:
 
-´´´
+```
 ACA PONER RESULTADOS.
-´´´
+```
