@@ -22,11 +22,35 @@ Also, you can the confidence, which is a metric that MDETR provides, to know how
 In our code, many detections are discarded because confidence is not high enough. You can change that modifying "CONFIDENCE" constante in the code.
 
 ### Success results
+
+<table>
+<tr>
+<td>
 ![is someone sit](images/is_someone_sit.png)
+</td>
+<td>
 ![is someone sleeping](images/is_someone_sleeping.png)
+</td>
+</tr>
+  
+<tr>
+<td>
 ![is someone stand](images/is_someone_stand.png)
+</td>
+<td>
 ![who is giving a handshake](images/who_is_giving_a_handshake.png)
+</td>
+</tr>
+  
+<tr>
+<td>
 ![who is standing](images/who_is_standing.png)
+</td>
+<td>
+![who is standing](images/who_is_standing.png)
+</td>
+</tr>
+</table>
 
 ### Failure results
 ![is someone dancing](images/is_someone_stand.png)
