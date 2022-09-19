@@ -27,7 +27,7 @@ In our code, many detections are discarded because confidence is not high enough
 | :----------:                                            | :----------:                                                              |
 | ![is someone sit](images/is_someone_sit.png)            | ![is someone stand](images/is_someone_stand.png)                          |
 | ![is someone sleeping](images/is_someone_sleeping.png)  | ![who is giving a handshake](images/who_is_giving_a_handshake.png)        |
-| ![who is standing](images/who_is_standing.png)          | ![who is giving a handshake](images/who_is_giving_a_handshake.png)        |
+| ![who is standing](images/who_is_standing.png)          |                                                                           |
 
 ### Failure results
 ![is someone dancing](images/is_someone_stand.png)
@@ -39,7 +39,7 @@ model fails to recognized some situations in images.
 ## Results
 After running validation dataset of AVA, we get some results. There were actions easily recognized, and others that not.
 
-<center>
+<center style="text-align: center">
 
 | | Pascal Boxes | Category Results  ||
 | :----------:  | :----------:  | :----------:      | :----------:  |
