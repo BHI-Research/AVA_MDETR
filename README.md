@@ -37,7 +37,7 @@ model fails to recognized some situations in images.
 ## Results
 After running validation dataset of AVA, we get some results. There were actions easily recognized, and others that not.
 
-<center style="text-align: center">
+<center style="display: flex; justify-content: center">
 
 | | Pascal Boxes | Category Results  ||
 | :----------:  | :----------:  | :----------:      | :----------:  |
