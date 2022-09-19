@@ -22,11 +22,10 @@ Also, you can the confidence, which is a metric that MDETR provides, to know how
 In our code, many detections are discarded because confidence is not high enough. You can change that modifying "CONFIDENCE" constante in the code.
 
 ### Success results
-![is someone sit](images/is_someone_sit.png)
-![is someone sleeping](images/is_someone_sleeping.png)
-![is someone stand](images/is_someone_stand.png)
-![who is giving a handshake](images/who_is_giving_a_handshake.png)
-![who is standing](images/who_is_standing.png)
+
+| ![is someone sit](images/is_someone_sit.png)      | ![is someone stand](images/is_someone_stand.png)       |
+| ![is someone sleeping](images/is_someone_sleeping.png)   | ![who is giving a handshake](images/who_is_giving_a_handshake.png)        |
+| ![who is standing](images/who_is_standing.png)   | ![who is giving a handshake](images/who_is_giving_a_handshake.png)        |
 
 ### Failure results
 ![is someone dancing](images/is_someone_stand.png)
@@ -38,6 +37,8 @@ model fails to recognized some situations in images.
 ## Results
 After running validation dataset of AVA, we get some results. There were actions easily recognized, and others that not.
 
+<center>
+
 | | Pascal Boxes | Category Results  ||
 | :----------:  | :----------:  | :----------:      | :----------:  |
 | Category      | AP@0.5IOU     | Category          | AP@0.5IOU     |
@@ -46,3 +47,5 @@ After running validation dataset of AVA, we get some results. There were actions
 | Stand Up      | 0.0011        | throw             | 0.0           |
 | Handshake     | 0.0005        | touch (an object) | 0.0           |
 | Dance         | 0.0005        | touch (an object) | 0.0           |
+
+</center>
