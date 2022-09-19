@@ -23,6 +23,8 @@ In our code, many detections are discarded because confidence is not high enough
 
 ### Success results
 
+| | Images | Images  ||
+| :----------:  | :----------:  | :----------:      | :----------:  |
 | ![is someone sit](images/is_someone_sit.png)      | ![is someone stand](images/is_someone_stand.png)       |
 | ![is someone sleeping](images/is_someone_sleeping.png)   | ![who is giving a handshake](images/who_is_giving_a_handshake.png)        |
 | ![who is standing](images/who_is_standing.png)   | ![who is giving a handshake](images/who_is_giving_a_handshake.png)        |
